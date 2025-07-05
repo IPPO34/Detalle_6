@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Yennifer</title>
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="icon" href="img/Fondo.jpg" type="image/x-icon" />
+  <style>
+    .rotate-warning {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: black;
+      color: white;
+      font-size: 1.5rem;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      z-index: 9999;
+      padding: 20px;
+    }
+
+    @media screen and (orientation: portrait) {
+      body > *:not(.rotate-warning) {
+        display: none !important;
+      }
+      .rotate-warning {
+        display: flex !important;
+      }
+    }
+
+    .texto-container {
+      max-width: 90vw;
+      max-height: 85vh;
+      overflow-y: auto;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 20px;
+    }
+
+    .texto-container p {
+      font-size: clamp(1rem, 2.2vw, 1.6rem);
+      margin-bottom: 1.5em;
+      line-height: 1.7;
+      color: #ff69b4;
+      text-shadow:
+        1px 1px 2px rgba(0, 0, 0, 0.5),
+        0 0 10px rgba(255, 105, 180, 0.6),
+        0 0 5px rgba(255, 20, 147, 0.8);
+    }
+  </style>
+</head>
+<body>
+  <div class="rotate-warning">
+    Gira tu teléfono a modo horizontal para ver tu mensaje con amor 💖
+  </div>
+
+  <audio src="sound/spt1.mp3" autoplay loop></audio>
+
+  <main class="texto-container">
+    <p>Hola mi amorcito bella, preciosa, hermosa, mi vida, mi cielo, mi tesoro, mi todo 💗. Bueno, primero comenzar agradeciéndote por todo este tiempo que llevamos juntos, mi amorcito.</p>
+    <p>De verdad que te has vuelto en alguien muy pero muy importante en mi vida. El tan solo verte o hablar contigo me alegra el día completamente.</p>
+    <p>No quiero a otra que no seas tú mi amor 💓. Siento que contigo puedo ser yo mismo y no fingir ser una persona que no soy. Contigo tengo una conexión que jamás tuve con nadie.</p>
+    <p>Quiero estar contigo si me lo permites por siempre mi amorcito 💖. Me has demostrado muchas veces que me quieres mucho, gracias por enseñarme lo que es una relación sana y bonita.</p>
+    <p>Gracias por estar ahí cuando te necesito, y no dudes que también siempre estaré para ti mi amor 💝. Eres con la primera chica que estoy y quiero que seas la última, quiero que seas tú por siempre mi amor 💗.</p>
+    <p>Nunca me imaginé que ese día 29 de marzo conocería al amor de mi vida 💘. Sin buscarlo, de la nada llegaste a mi vida mi princesa 💕 y ahora estoy enamorado perdidamente de ti.</p>
+    <p>Yo creo que siempre fui loco, pero ahora estoy más loco por ti 💞 jajajaja. Pero bueno, como siempre te digo, las palabras nunca son suficientes para expresar lo que siento por ti mi amorcito 💗</p>
+    <p>te quiero mucho mucho mucho mucho al infinito y mas alla como dice Buzz Lightyear jajajajaj y decirte nuevamente que eres el amor de todas mis vidas mi amor 💗</p>
+  </main>
+
+  <script src="anim.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

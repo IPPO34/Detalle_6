@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Yennifer</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="img/Fondo.jpg" type="image/x-icon" />
+  <style>
+    /* Aviso si el dispositivo está en vertical */
+    .rotate-warning {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: black;
+      color: white;
+      font-size: 1.5rem;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      z-index: 9999;
+      padding: 20px;
+    }
+
+    @media screen and (orientation: portrait) {
+      body > *:not(.rotate-warning) {
+        display: none !important;
+      }
+      .rotate-warning {
+        display: flex !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="rotate-warning">
+    Gira tu teléfono a modo horizontal para ver el mensaje 💗
+  </div>
+
+  <main>
+    <div class="greetings">
+      <span>H</span><span>o</span><span>l</span><span>a</span><span>!</span>
+      <span>Y</span><span>e</span><span>n</span><span>n</span><span>i</span>
+      <span>f</span><span>e</span><span>r</span>
+    </div>
+
+    <div class="description">
+      <p>Esto es para ti mi amorcito,<br />¡te quiero mucho, mucho, mucho! 💗</p>
+    </div>
+
+    <div class="button">
+      <a href="flower.html" class="botones">CLICK AQUÍ</a>
+    </div>
+  </main>
+</body>
+</html>
