@@ -154,39 +154,7 @@ function syncSubtitles(){
 const music=document.getElementById("music");
 const subtitleDiv=document.getElementById("subtitles");
 
-const subtitles=[
 
-{time:27,text:"Por solo una oportunidad de conquistar tu corazón"},
-{time:31,text:"podrías poner el listón más allá de las estrellas"},
-{time:36,text:"Haré lo que sea que me pidas"},
-
-{time:42,text:"Di que quieres la luna, mírame aprender a volar"},
-{time:48,text:"No hay montaña que puedas señalar que no escalaría"},
-{time:54,text:"Es una locura, pero es verdad"},
-{time:59,text:"No hay nada que no haría"},
-{time:61,text:"Lo arriesgaría todo por ti"},
-
-{time:67,text:"Tomar tu mano y llamarte mío"},
-{time:72,text:"Intento ser tu hombre hasta el fin de los tiempos"},
-{time:78,text:"Oh, haré lo que sea que me pidas"},
-
-{time:84,text:"Correría a través del fuego solo para estar a tu lado"},
-{time:91,text:"Si tu corazón está en juego podrías tomar el mío"},
-{time:98,text:"Es una locura pero es verdad"},
-{time:104,text:"Lo arriesgaría todo por ti"},
-
-{time:110,text:"Cruzaría el mar nadando solo para mostrarte"},
-{time:117,text:"Sacrificaría mi vida solo para abrazarte"},
-{time:124,text:"Podría seguir y seguir para demostrarte que perteneces aquí"},
-
-{time:132,text:"Di que quieres la luna mírame aprender a volar"},
-{time:139,text:"No hay montaña que puedas señalar que no escalaría"},
-
-{time:146,text:"Es una locura pero es verdad"},
-{time:153,text:"Lo arriesgaría todo por ti"},
-{time:158,text:"Lo arriesgaría todo por ti"}
-
-];
 
 music.ontimeupdate=()=>{
 
